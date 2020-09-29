@@ -29,7 +29,11 @@ function calc(num){
     }
 }
 
+document.getElementById('number-value').focus();
 
+document.body.addEventListener("keydown", function(){
+	if(event.keyCode == 13) saveClick();}
+);
 
 
     
